@@ -8,7 +8,7 @@ if(!require(pacman)) install.packages("pacman")
 
 pacman::p_load(tidyverse,
                tidytext,
-               scrap,
+               rvest, # Cambiar "scrap" a "rvest"
                here)
 
 
